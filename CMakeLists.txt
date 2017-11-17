@@ -192,6 +192,12 @@ add_library(gecko_core OBJECT
   gecko/src/dom/media/mediasink/AudioSinkWrapper.cpp
   gecko/src/dom/media/mediasink/DecodedStream.cpp
   gecko/src/dom/media/mediasink/OutputStreamManager.cpp
+  gecko/src/dom/media/mediasource/ContainerParser.cpp
+  gecko/src/dom/media/mediasource/MediaSourceDecoder.cpp
+  gecko/src/dom/media/mediasource/MediaSourceDemuxer.h
+  gecko/src/dom/media/mediasource/ResourceQueue.cpp
+  gecko/src/dom/media/mediasource/SourceBufferResource.cpp
+  gecko/src/dom/media/mediasource/TrackBuffersManager.cpp
   gecko/src/dom/media/mp3/MP3Decoder.cpp
   gecko/src/dom/media/mp3/MP3Demuxer.cpp
   gecko/src/dom/media/mp3/MP3FrameParser.cpp
@@ -217,6 +223,7 @@ add_library(gecko_core OBJECT
   gecko/src/dom/media/VideoFrameContainer.cpp
   gecko/src/dom/media/wave/WaveDecoder.cpp
   gecko/src/dom/media/wave/WaveDemuxer.cpp
+  gecko/src/dom/media/webm/WebMBufferedParser.cpp
   gecko/src/memory/fallible/fallible.cpp
   gecko/src/memory/mozalloc/mozalloc.cpp
   gecko/src/memory/mozalloc/mozalloc_oom.cpp
